@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button1{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #b407da;
+  text-align: center;
+  color: #fff;
+}
+
+.button2{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #22cf07;
+  text-align: center;
+  color: #fff;
+}
+
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  border: black 2px solid;
+  padding: 30px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+form input[type="text"],form input[type="number"], form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  align-items: center;
+
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  background-color: #085ae2;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+form input[type="submit"]:hover {
+  background-color: #286090;
+  align-items: center;
+}
